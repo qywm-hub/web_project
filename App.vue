@@ -1,0 +1,49 @@
+<script>
+	export default {
+		onLaunch: function() {
+			console.log('App Launch')
+		},
+		onShow: function() {
+			console.log('App Show')
+		},
+		onHide: function() {
+			console.log('App Hide')
+		}
+	}
+</script>
+
+<style>
+	.uni-bg{
+		display: flex;
+		justify-content: center;
+		height: 100vh;
+		position: absolute;
+		background-image: url('/static/bg/nfc_bg_one.png');
+		background-size: cover;
+		width: 100%;
+		background-repeat: no-repeat;
+		
+	}
+	.uni-bg_two{
+		display: flex;
+		justify-content: center;
+		height: 100vh;
+		position: absolute;
+		background-image: url('/static/bg/ll.png');
+		background-size: cover;
+		width: 100%;
+		background-repeat: no-repeat;
+		
+	}
+	.uni-bg_three{
+		display: flex;
+		justify-content: center;
+		height: 120vh;
+		position: absolute;
+		background-image: url('/static/read/two.png');
+		background-size: cover;
+		width: 100%;
+		background-repeat: no-repeat;
+		opacity: 0.1;
+	}
+</style>

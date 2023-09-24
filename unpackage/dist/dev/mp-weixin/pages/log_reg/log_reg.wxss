@@ -1,0 +1,77 @@
+
+.titleClass {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: space-between;
+  font-size: 48rpx;
+  color: blue;
+  align-items: center;
+}
+.login_mobile,.login_password,.register_mobile,.register_code,.reg_password{
+	display: flex;    /* 水平放置 */
+	margin-top: 10px;   /* 距离上面10px */
+}
+.login_button,.register_button{
+	margin-top: 10px;   /* 距离上面10px */
+	justify-content: center;  /* 登录或注册字样水平居中 */
+}
+.login_mobile_input,.login_password_input,.register_mobile_input,.register_code_input,.reg_password_input{
+	width: 240px;
+	height: 40px;
+	border: 2px #C8C7CC solid;   /* 设置边框 */
+	border-radius:15px;         /* 设置圆角 */
+	padding: 5px 2px 5px 10px;  /* 文本框输入内容边距:上右下左 */
+	background-color:skyblue;
+}
+.title{margin: 40rpx 20rpx;}
+/* .title text{text-align: center;font-size: 96rpx;color:indianred;margin-left: -80%} */
+.title text {
+  background: linear-gradient(to right, #ff8177, #ff867a, #ff8c7f, #f99185, #cf556c);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 96px;
+  text-align: center;
+  margin-left: -45%
+}
+.content {
+	margin-top: 400rpx;  /* 主页面距离上面的距离 */
+	display: flex;
+	justify-content: center;  /* 内容水平居中 */
+	width: 100px;
+	margin-left: -55%;
+}
+.code_button,.refresh_button {
+  display: inline-block;
+  width: 200rpx;
+  height: 80rpx;
+  line-height: 60rpx;
+  margin-top:  3%;
+  text-align: center;
+  background-color: #f3f3f3;
+  color: #666;
+  font-size: 28rpx;
+  border-radius: 5rpx;
+  margin-left: 30rpx;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 10rpx;
+  font-size: 30rpx;
+  justify-content: space-between;
+  margin-left: 2%;
+  color: rosybrown;
+  font-weight: 500;
+}
+.codeContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.code_button.disabled {
+  background-color: #ddd;
+  color: #999;
+  cursor: not-allowed;
+}
+
